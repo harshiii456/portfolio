@@ -1,8 +1,8 @@
-# Portfolio | Karunya Gupta
+# Portfolio | Harshita
 
 ## Overview
 
-This is a modern, responsive portfolio website for **Karunya Gupta**, showcasing projects, skills, achievements, and contact information. The site is built with React and Framer Motion, featuring interactive UI, smooth animations, and a clean design.
+This is a modern, responsive portfolio website for **Harshita**, showcasing projects, skills, achievements, and contact information. The site is built with React and Framer Motion, featuring interactive UI, smooth animations, and a clean design.
 
 ## Features
 
@@ -27,7 +27,7 @@ This is a modern, responsive portfolio website for **Karunya Gupta**, showcasing
 
 1. Clone the repository:
    ```
-   git clone https://github.com/KarunyaGupta/Portfolio.git
+   git clone https://github.com/harshiii456/Portfolio.git
    ```
 2. Install dependencies:
    ```
@@ -41,7 +41,6 @@ This is a modern, responsive portfolio website for **Karunya Gupta**, showcasing
 
 ## Deployment
 
-This portfolio is deployed on [Vercel](https://karunyagupta.vercel.app).  
 To deploy your own version, connect your GitHub repo to Vercel or Netlify and follow their deployment instructions.
 
 ## Folder Structure
@@ -67,11 +66,6 @@ VITE_EMAILJS_PUBLIC_KEY=your_public_key
 - Animations: [Framer Motion](https://www.framer.com/motion/)
 - UI: [Tailwind CSS](https://tailwindcss.com/)
 
-## Contact
-
-- **Email:** mails.karunyagupta@gmail.com
-- **GitHub:** [karunyagupta](https://github.com/karunyagupta)
-- **LinkedIn:** [karunyagupta](https://www.linkedin.com/in/karunyagupta/)
 
 ## License
 
@@ -79,4 +73,4 @@ This project is licensed under the [MIT License](./LICENSE).
 
 ---
 
-© 2024 Karunya Gupta | All Rights Reserved.
+© 2026 Harshita | All Rights Reserved.
