@@ -8,44 +8,173 @@ export default function Blog() {
     {
       id: 1,
       title: "Behind the Scenes: My Life as a WIE Chairperson at IEEE-CIET SB",
-      text: `Being a WIE Chairperson is more than a role—it’s a responsibility driven by purpose. At IEEE-CIET Student Branch, my journey as WIE Chairperson has been about creating opportunities, encouraging participation, and building a supportive environment for growth.
+      text: `it's a role filled with planning, coordination, problem-solving, and a lot of learning behind the curtains.
 
-Behind every event and initiative lies teamwork, coordination, and thoughtful execution. Acting as a bridge between ideas and implementation, juniors and opportunities, I learned that leadership is rooted in listening, collaboration, and consistency.
+My journey involves organizing everything from hackathons and coding contests to workshops and tech talks, ensuring smooth communication between students, faculty mentors, and the core team. Most people see the final event — the registrations, the posters, the sessions — but what happens before that is where the real work lies.
 
-Balancing academics with responsibilities taught me time management, adaptability, and resilience. Most importantly, seeing members gain confidence and take initiative made every effort worthwhile.
+On a typical day, I'm:
+Brainstorming event ideas that truly add value to students
+Preparing documentation, timelines, and task breakdowns
+Coordinating with 50+ students and a 3–4 member core team
+Managing promotions, registrations, and on-ground execution
+Debugging last-minute tech issues (yes, that happens a lot too!)
+Handling sponsorship outreach and professional communication
 
-Leading WIE reshaped my perspective on leadership—it’s not about authority, but impact. I’m grateful for this experience that strengthened my skills and gave me a deeper sense of purpose.
-`,
+From designing workflows to reviewing website updates, maintaining records, and motivating the team — I’ve learned how to lead with responsibility and adapt under pressure.
+
+The biggest challenge? Time management. Balancing academics with community building pushes me to be disciplined. The biggest reward? Seeing students learn, participate, and grow through initiatives we worked so hard to bring to life.
+
+ACM has shaped me not just as a developer but as someone who can collaborate, execute, and communicate effectively. Every event taught me something new — especially how impactful teamwork and planning can be when done right.`,
     },
     {
       id: 2,
       title: "Why I Chose Analyst as My Career Path",
-      text: `Choosing the analyst path was not a sudden decision—it was a realization shaped by my curiosity and interest in understanding how things work. I’ve always enjoyed analyzing patterns, asking the right questions, and turning information into meaningful insights. The analyst role allows me to combine logic, data, and communication to support informed decision-making.
+      text: `Because it sits at the intersection of logic, creativity, and real-world impact — three things that naturally drive me.
 
-What attracts me most is the impact an analyst creates—transforming raw data into clarity and direction. This role also offers continuous learning, adaptability across industries, and long-term growth opportunities.
+Early in my college journey at Chitkara University, I realized that I didn’t just enjoy writing code — I enjoyed building systems, solving problems efficiently, and improving them through debugging and optimization. Whether it was implementing scheduling algorithms in C++, designing payroll logic in Java, or developing REST APIs during my internship, what excited me most was the process of engineering solutions, not just creating them.
 
-For me, being an analyst means more than working with data; it means creating value through insight. It aligns with my strengths, mindset, and long-term goals, making it a career path I’m genuinely excited to pursue.
-`,
+Software engineering appeals to me because:
+It lets me solve complex problems with scalable solutions
+I can transform ideas into functional products
+There’s always room to learn, iterate, and improve
+It impacts people directly — from students using chapter websites I built to users interacting with full-stack apps
+
+I love the challenge of breaking a big problem into structured components, designing workflows, and collaborating with teams — something I practice actively in roles like ACM Secretary and through hackathons.
+To me, software engineering is more than development — it’s about thinking, designing, building, and refining. And that mindset is exactly how I want to shape my career.
+I want to build software that is efficient, meaningful, and user-focused, while growing as an engineer who values structure, collaboration, and innovation.
+
+That’s why I chose this path — because it doesn’t just match my skills, it matches how I think.`,
     },
     {
       id: 3,
       title: "Things I Wish I Knew Before Starting Engineering",
-      text: `Starting engineering, I believed success was only about grades and coding. Over time, I realized it’s much more than that. Engineering is about problem-solving, consistency, and learning how to adapt. Feeling confused in the beginning is normal, and not knowing everything doesn’t mean you’re behind.
+      text: `If I could time-travel back to Day 1 of engineering, I’d shake my own shoulders and say:
+“Relax! It’s not a race. Also, Google will be your best friend.”
 
-I learned that skills and projects often matter more than perfect grades, and comparison only slows personal growth. Self-learning is essential, and real progress comes from building, failing, and improving. Most importantly, engineering is a long journey, not a race.
+Here’s the survival guide I wish came pre-installed with my degree:
 
-If I had known one thing earlier, it would be this: growth takes time. Stay curious, stay patient, and trust the process—you’re learning more than you realize.
-`
+You don’t need to know everything. You just need Wi-Fi and the confidence to search it up.
+
+DSA = Gym for your brain. Skip it, and your logic gets weak. Do it daily, and suddenly you’re unstoppable.
+
+Your code WILL break. Often. And honestly? That’s normal. Debugging is basically engineering therapy.
+
+Projects > Notes. The real syllabus is: Build → Fail → Fix → Repeat.
+
+Communication matters. If you can explain your code to a human, congratulations — you’re already ahead of half the class.
+
+Imposter syndrome visits everyone. It’ll sit beside you, whisper “You don’t belong here,” and then disappear once you ship your first real project.
+
+Hackathons are chaotic fun. You’ll form teams at 2 AM, pitch at 9 AM, and question life at 3 PM — but the growth is worth it.
+
+Consistency beats overnight cramming. 1 hour a day keeps confusion away. 10 hours the night before? Nope, chaos guaranteed.
+
+Engineering is creative too! Yes, you can center a div AND design a system architecture. Both are flexes.
+
+Take care of yourself. Sleep is not optional. Your brain stops compiling without it.
+
+Learn to enjoy the process. Because the most accurate definition of engineering is:
+“Preparing you for bugs you didn’t know you’d face.”
+
+And finally:
+
+No one warned me that engineering is 30% coding, 20% patience, and 50% trying to fix something at the last minute — but now I know, and I kinda love it.`
     },
     {
       id: 4,
-      title: "Understanding XIRR, Mutual Funds & Investments (Student View)",
-      text: `As a student, investing can feel complex and intimidating, especially with terms like XIRR and mutual funds. XIRR (Extended Internal Rate of Return) simply measures the actual annual return on your investments, considering multiple investments made at different times. It gives a clearer picture than simple returns.
+      title: "Things They Don’t Teach You in Engineering (But You Learn Anyway)",
+      text: `Engineering textbooks are thick, but somehow they never include the important chapters, like:
 
-Mutual funds make investing accessible by allowing you to invest small amounts while professionals manage diversification across assets and sectors. For students, they offer a practical way to start early, learn market behavior, and build financial discipline.
+“How to fix your code at 3 AM when StackOverflow is down.”
+or
+“Why your UI looks perfect on your laptop and cursed on every other screen.”
 
-Understanding these basics helped me see investing not as gambling, but as long-term planning. Even small, consistent investments can create meaningful impact over time. Learning finance early isn’t about money alone—it’s about making informed decisions for the future.
-`
+So, here are the unofficial lessons I picked up along the way — the ones no syllabus prepared me for:
+
+1. Your code has feelings — and it gets moody.
+
+Sometimes it runs. Sometimes it doesn’t.
+And the error message will be something like:
+“SyntaxError: Unexpected token” (aka: figure it out yourself, bestie).
+
+2. Debugging is 90% detective work, 10% fixing.
+
+You’ll stare at the code, sip coffee, whisper “Why?”, and then realize the bug was a missing semicolon.
+Classic plot twist.
+
+3. Group projects teach negotiation skills better than any management course.
+
+You don’t assign roles — you fight for them.
+And if you become the team lead, suddenly you're also:
+
+the debugger
+
+the UI fixer
+
+the reminder app
+
+the emotional support human
+
+4. Hackathons are more about survival than coding.
+
+You’ll:
+
+form teams last minute
+
+build MVPs overnight
+
+give presentations with 2 hours of sleep
+
+question life choices
+
+grow 10x in 48 hours
+
+And somehow… do it again next month.
+
+5. Communication is a real engineering skill.
+
+Explaining your project clearly > building it quietly.
+If you can make a professor, teammate, and recruiter understand your work without confusion,
+you just unlocked a rare achievement.
+
+6. Google is part of the curriculum.
+
+The degree is B.Tech.
+The skill is B.Tech-with-Browser-Tabs-open-always.
+
+7. Your network matters.
+
+The real-life formula is:
+Knowledge × Connections × Consistency = Opportunities
+
+And surprisingly, connections don’t form if you never talk to humans.
+
+8. You’ll feel like you don’t belong here at least once.
+
+It’s normal. It’s universal. It’s temporary.
+It goes away right after you build something cool and think:
+“Wait… I actually did that?”
+
+9. Consistency beats cramming.
+
+1 hour daily on skills you care about = progress
+10 hours the night before = panic + regret
+
+10. Engineering shapes your mindset more than your marks.
+
+It teaches you to:
+
+break problems down
+
+stay curious
+
+learn by building
+
+adapt fast
+
+handle pressure
+
+and fix things you never knew you’d face`
     },
   ];
 

@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { FaUniversity, FaSchool, FaGraduationCap } from "react-icons/fa";
+import { FaUniversity, FaSchool, FaGraduationCap, FaAward, FaUsers } from "react-icons/fa";
 
 const AboutMe = () => {
   return (
@@ -17,7 +17,7 @@ const AboutMe = () => {
         padding: "clamp(1rem, 4vw, 3rem) 1rem",
       }}
     >
-      {/* --- About Me + Education Section --- */}
+      {/* --- About Me + Achievements Section --- */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -58,70 +58,48 @@ const AboutMe = () => {
             textAlign: "justify",
           }}
         >
-          Hi, I’m <strong>Harshita</strong> - an aspiring{" "}
-          <strong>Data Analyst</strong> and{" "}
-          <strong></strong> with a passion for turning
-          data into actionable insights.
-        </p>
-        <p className="text-gray-700 mb-4" style={{textAlign: "justify" }}>
-          As a pre-final year
-          <strong> B.E. Computer Science and Engineering</strong> student at
-          <strong> Chitkara University</strong>, I combine academic learning with
-          hands-on projects and leadership experience.
+          Hi, I’m <strong>Harshu Gupta</strong> — a passionate <strong>Computer Science Engineering student</strong> and <strong>tech & design enthusiast</strong> who loves transforming ideas into impactful projects. I specialize in <strong>data analysis, UI/UX design, and technology-driven innovation</strong>, combining analytical thinking with creative execution.
         </p>
 
+        <p style={{ textAlign: "justify", color: "rgba(255,255,255,0.85)", marginBottom: "1rem" }}>
+          Currently a <strong>3rd-year B.E. Computer Science student</strong> at <strong>Chitkara University</strong>, I actively participate in technical communities, lead student initiatives, and contribute to real-world projects that enhance both my skills and impact.
+        </p>
 
+        {/* --- Achievements & Roles --- */}
         <div className="mb-4">
-          <h2 className="text-xl font-medium mb-2">What I do</h2>
-          <ul className="list-disc list-inside text-gray-700" style={{textAlign: "justify" }}>
-          <li>
-          <strong>Data Analysis & Visualization</strong> (Excel, Power BI, DAX, SQL, Python)
-          </li>
-          <li>
-          <strong>Business Insights & Reporting</strong> : turning data into
-          action
-          </li>
-          <li>
-          <strong>Generative AI & Prompt Engineering</strong> : exploring real
-          business applications
-          </li>
-          <li>
-          <strong>Leadership & Collaboration</strong> through IEEE WIE initiatives
-          </li>
+          <h2 className="text-xl font-medium mb-2" style={{ color: "var(--accent)" }}>Key Achievements & Roles</h2>
+          <ul className="list-disc list-inside text-gray-300" style={{ textAlign: "justify" }}>
+            <li><strong>Graphic Head</strong> — Designed posters, certificates, and branding for major ACM Student Chapter events including <strong>Design-o-tech</strong> and ROCS 2025.</li>
+            <li><strong>Event Coordination</strong> — Assisted in organizing national-level conferences and workshops, collaborating with speakers from premier institutions.</li>
+            <li><strong>Leadership & Collaboration</strong> — Led IEEE WIE initiatives, managed student teams, and conducted workshops to enhance peer learning.</li>
+            <li><strong>Data & Technical Projects</strong> — Experience in <strong>Excel, Power BI, SQL, Python</strong> for data analysis, visualization, and generating actionable business insights.</li>
+            <li><strong>Innovation & Presentations</strong> — Participated in engineering-thinking competitions and group presentations on topics like <strong>“Waste to Wonder”</strong> and other creative solutions.</li>
+            <li><strong>Continuous Learning</strong> — Exploring <strong>Generative AI, prompt engineering, and analytics-driven problem-solving</strong> to bridge technology and real-world applications.</li>
           </ul>
-          </div>
+        </div>
 
-
-          <div className="mb-4">
-          <h2 className="text-xl font-medium mb-2">My approach</h2>
-          <p className="text-gray-700" style={{textAlign: "justify" }}>
-          I believe technology should be people-centered. I focus on building
-          solutions that are insightful, easy to understand, and useful for
-          decision-making. Leading IEEE WIE, organizing events, and collaborating
-          with diverse teams has sharpened my communication, project
-          management, and problem-solving skills.
+        {/* --- Approach & Mindset --- */}
+        <div className="mb-4">
+          <h2 className="text-xl font-medium mb-2" style={{ color: "var(--accent)" }}>My Approach</h2>
+          <p style={{ textAlign: "justify", color: "rgba(255,255,255,0.85)" }}>
+            I believe in building <strong>solutions that are people-centered, insightful, and easy to understand</strong>. Leading student initiatives and collaborating on projects has sharpened my <strong>communication, problem-solving, and project management skills</strong>. I thrive in environments that challenge me to grow technically and creatively.
           </p>
-          </div>
+        </div>
 
-
-          <div>
-          <h2 className="text-xl font-medium mb-2">Open to</h2>
-          <p className="text-gray-700" style={{textAlign: "justify" }}>
-          Internships or projects in <strong>Data Analysis</strong> /{' '}
-          <strong>Business Analysis</strong>, semi-technical roles bridging
-          technology and business, and collaborations in <strong>AI</strong>,
-          analytics, and innovation-driven projects.
+        {/* --- Open To --- */}
+        <div className="mb-4">
+          <h2 className="text-xl font-medium mb-2" style={{ color: "var(--accent)" }}>Open To</h2>
+          <p style={{ textAlign: "justify", color: "rgba(255,255,255,0.85)" }}>
+            Internships or projects in <strong>Data Analysis</strong>, <strong>Business Analysis</strong>, semi-technical roles bridging technology and business, and collaborations in <strong>AI, analytics, and innovation-driven projects</strong>.
           </p>
-          </div>
+        </div>
 
-
-          <footer className="mt-6 text-sm text-gray-600" style={{textAlign: "justify" }}>
+        {/* --- Footer --- */}
+        <footer className="mt-6 text-sm" style={{ textAlign: "justify", color: "rgba(255,255,255,0.7)" }}>
           <p>
-          Let’s connect if you’re looking for an enthusiastic learner who combines
-          <strong> technical skills</strong> with <strong>analytical thinking</strong> and
-          an eagerness to contribute to data-driven decision making.
+            Let’s connect if you’re looking for an enthusiastic learner who combines <strong>technical skills</strong> with <strong>analytical thinking</strong> and a passion for contributing to impactful projects.
           </p>
-          </footer>
+        </footer>
 
         {/* --- Education Section --- */}
         <motion.div
@@ -134,8 +112,7 @@ const AboutMe = () => {
             style={{
               fontSize: "clamp(1.1rem, 2.2vw, 1.6rem)",
               marginBottom: "1.5rem",
-              background:
-                "linear-gradient(90deg, var(--accent), var(--accent-2))",
+              background: "linear-gradient(90deg, var(--accent), var(--accent-2))",
               WebkitBackgroundClip: "text",
               color: "transparent",
             }}
@@ -143,19 +120,10 @@ const AboutMe = () => {
             Education
           </h3>
 
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              gap: "1.2rem",
-            }}
-          >
-            {/* --- Education Card 1 --- */}
+          <div style={{ display: "flex", flexDirection: "column", gap: "1.2rem" }}>
+            {/* --- Bachelor --- */}
             <motion.div
-              whileHover={{
-                scale: 1.02,
-                boxShadow: "0 0 25px rgba(0,255,200,0.15)",
-              }}
+              whileHover={{ scale: 1.02, boxShadow: "0 0 25px rgba(0,255,200,0.15)" }}
               transition={{ duration: 0.3 }}
               style={{
                 background: "rgba(255,255,255,0.05)",
@@ -171,31 +139,20 @@ const AboutMe = () => {
             >
               <FaUniversity size={40} color="var(--accent)" />
               <div style={{ flex: 1, minWidth: "200px" }}>
-                <h4
-                  style={{
-                    color: "var(--accent)",
-                    marginBottom: "0.4rem",
-                    fontSize: "1.05rem",
-                  }}
-                >
-                  Bachelor of Engineering in Computer Science and Engineering
+                <h4 style={{ color: "var(--accent)", marginBottom: "0.4rem", fontSize: "1.05rem" }}>
+                  Bachelor of Engineering in Computer Science
                 </h4>
                 <p style={{ color: "rgba(255,255,255,0.85)", marginBottom: "0.2rem" }}>
                   <strong>Chitkara University</strong> - Rajpura, Punjab
                 </p>
-                <p style={{ color: "rgba(255,255,255,0.7)" }}>
-                  3rd Year (Pursuing) | GPA: 8.98
-                </p>
+                <p style={{ color: "rgba(255,255,255,0.7)" }}>3rd Year (Pursuing) | GPA: 8.98</p>
                 <p style={{ color: "rgba(255,255,255,0.7)" }}>2023 – 2027</p>
               </div>
             </motion.div>
 
-            {/* --- Education Card 2 --- */}
+            {/* --- 12th Grade --- */}
             <motion.div
-              whileHover={{
-                scale: 1.02,
-                boxShadow: "0 0 25px rgba(0,255,200,0.15)",
-              }}
+              whileHover={{ scale: 1.02, boxShadow: "0 0 25px rgba(0,255,200,0.15)" }}
               transition={{ duration: 0.3 }}
               style={{
                 background: "rgba(255,255,255,0.05)",
@@ -215,21 +172,15 @@ const AboutMe = () => {
                   Higher Secondary Education (12th Grade)
                 </h4>
                 <p style={{ color: "rgba(255,255,255,0.85)", marginBottom: "0.2rem" }}>
-                  <strong>Lord's Convent School</strong> - Sarkaghat, Mandi, Himachal Pradesh
+                  <strong>Baba Aapo Aap Guru Nanak Public School</strong> - Nabha, Punjab
                 </p>
-                <p style={{ color: "rgba(255,255,255,0.7)" }}>
-                  Himachal Pradesh Board | Percentage: 89.8%
-                </p>
-                <p style={{ color: "rgba(255,255,255,0.7)" }}>Completed in 2023</p>
+                <p style={{ color: "rgba(255,255,255,0.7)" }}>CBSE Board | 86.8% | Completed 2023</p>
               </div>
             </motion.div>
 
-            {/* --- Education Card 3 --- */}
+            {/* --- 10th Grade --- */}
             <motion.div
-              whileHover={{
-                scale: 1.02,
-                boxShadow: "0 0 25px rgba(0,255,200,0.15)",
-              }}
+              whileHover={{ scale: 1.02, boxShadow: "0 0 25px rgba(0,255,200,0.15)" }}
               transition={{ duration: 0.3 }}
               style={{
                 background: "rgba(255,255,255,0.05)",
@@ -249,12 +200,9 @@ const AboutMe = () => {
                   Secondary Education (10th Grade)
                 </h4>
                 <p style={{ color: "rgba(255,255,255,0.85)", marginBottom: "0.2rem" }}>
-                  <strong>Lord's Convent School</strong> - Sarkaghat, Mandi, Himachal Pradesh,
+                  <strong>Dayanand Public School</strong> - Pandusar, Nabha
                 </p>
-                <p style={{ color: "rgba(255,255,255,0.7)" }}>
-                  Himachal Pradesh Board | Percentage: 88.9%
-                </p>
-                <p style={{ color: "rgba(255,255,255,0.7)" }}>Completed in 2021</p>
+                <p style={{ color: "rgba(255,255,255,0.7)" }}>CBSE Board | 85% | Completed 2021</p>
               </div>
             </motion.div>
           </div>
