@@ -64,13 +64,12 @@ export default function Contact() {
   };
 
   const quickLinks = [
-    { img: "/github.png", title: "GitHub", link: "https://github.com/karunyagupta" },
-    { img: "/linkedin.png", title: "LinkedIn", link: "https://www.linkedin.com/in/karunygupta/" },
-    { img: "/gmail.png", title: "Email", link: "mailto:Harshita.g.2k@gmail.com" },
-    { img: "/whatsapp.png", title: "WhatsApp", link: "https://wa.me/+919805946982" },
-    { img: "/insta.png", title: "Instagram", link: "https://www.instagram.com/ig_karunya_/" },
-    
-  ];
+    { img: '/github.png', title: 'GitHub', link: 'https://github.com/harshiii456' },
+    { img: '/linkedin.png', title: 'LinkedIn', link: 'https://www.linkedin.com/in/harshita-gupta-090028290/' },
+    { img: '/gmail.png', title: 'Email', link: 'mailto:Harshita.g.2k@gmail.com' },
+    { img: '/whatsapp.png', title: 'WhatsApp', link: 'https://wa.me/+919988321773' },
+    { img: '/insta.png', title: 'Instagram', link: 'https://www.instagram.com/_.hxrshuuu._/' },
+  ]
 
   // Responsive inline styles (lightweight, complements your existing CSS)
   const resp = {
