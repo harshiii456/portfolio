@@ -7,7 +7,7 @@ export default function Blog() {
   const defaultPosts = [
     {
       id: 1,
-      title: "Behind the Scenes: My Life as a WIE Chairperson at IEEE-CIET SB",
+      title: "Behind the Scenes: My Life as a Secretary at Chitkara ACM Student Chapter",
       text: `it's a role filled with planning, coordination, problem-solving, and a lot of learning behind the curtains.
 
 My journey involves organizing everything from hackathons and coding contests to workshops and tech talks, ensuring smooth communication between students, faculty mentors, and the core team. Most people see the final event — the registrations, the posters, the sessions — but what happens before that is where the real work lies.
