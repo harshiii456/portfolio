@@ -5,18 +5,18 @@ import { motion, AnimatePresence } from "framer-motion";
 const CERTS = {
   tech: [
     {
-      title: "Introduction to LLM",
-      org: "CreateBytes",
+      title: "The Arts and Science of Relationships:Understanding Human Needs",
+      org: "Coursera",
       date: "2025",
-      img: "/certs/CBX.jpg",
-      link: "/certs/CBX.jpg",
+      img: "/certs/tech1.png",
+      link: "/certs/tech1.png",
     },
     {
-      title: "PowerBI with AI",
-      org: "Office Master",
+      title: "Cyber 101",
+      org: "DevLearn",
       date: "2025",
-      img: "/certs/PBIWithAI.jpg",
-      link: "/certs/PBIWithAI.jpg",
+      img: "/certs/tech2.png",
+      link: "/certs/tech2.png",
     },
     {
       title: "Python Foundation Certificate",
