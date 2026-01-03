@@ -4,12 +4,12 @@ import { Github, ExternalLink } from 'lucide-react'
 
 const PROJECTS = [
 	{
-		title: '🤖 Code Review AI - Intelligent Code Analysis Tool',
+		title: '🤖 Code Meet - Let us code together',
 		desc: 'An AI-powered platform that reviews code in real-time and provides instant suggestions for improvement. It helps developers enhance performance, security, and code quality with smart, automated insights.',
 		ss: '/codereview.png',
 		tech: ['React', 'Vite', 'Express', 'Google Generative AI(Gemini)'],
-		live: '#',
-		code: 'https://github.com/KarunyaGupta/CodeReview.ai',
+		live: 'https://codemeet-x50a.onrender.com',
+		code: 'https://github.com/harshiii456/Codemeet',
 	},
 	{
 		title: '🛒 E-Commerce Sales Performance & Profitability Analysis',
@@ -72,8 +72,8 @@ const PROJECTS = [
 		desc: 'A modern and responsive portfolio built with React and Framer Motion, showcasing projects, skills, and achievements with smooth animations and interactive UI.',
 		ss: '/portfolio.jpg',
 		tech: ['React', 'Framer Motion', 'Tailwind CSS'],
-		live: 'https://karunyagupta.vercel.app',
-		code: 'https://github.com/KarunyaGupta/Portfolio',
+		live: 'https://portfolio-ibgw.onrender.com/',
+		code: 'https://github.com/harshiii456/portfolio',
 	},
 ]
 
