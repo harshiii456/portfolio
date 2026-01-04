@@ -12,6 +12,14 @@ const PROJECTS = [
 		code: 'https://github.com/harshiii456/Codemeet',
 	},
 	{
+		title: '🤖 Code Meet - Let us code together',
+		desc: 'CodeMeet is a modern web application built on the MERN stack, designed to provide seamless virtual collaboration through real-time video meetings and collaborative coding environments. It integrates video conferencing, live chat, and a shared online compiler into a single platform.',
+		ss: '/codereview.png',
+		tech: ['React', 'Vite', 'Express', 'Socket.IO'],
+		live: 'https://codemeet-x50a.onrender.com',
+		code: 'https://github.com/harshiii456/Codemeet',
+	},
+	{
 		title: '💼 Portfolio Website',
 		desc: 'A modern and responsive portfolio built with React and Framer Motion, showcasing projects, skills, and achievements with smooth animations and interactive UI.',
 		ss: '/portfolio.jpg',
