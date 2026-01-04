@@ -5,9 +5,9 @@ import { Github, ExternalLink } from 'lucide-react'
 const PROJECTS = [
 	{
 		title: '🤖 Code Meet - Let us code together',
-		desc: 'An AI-powered platform that reviews code in real-time and provides instant suggestions for improvement. It helps developers enhance performance, security, and code quality with smart, automated insights.',
+		desc: 'CodeMeet is a modern web application built on the MERN stack, designed to provide seamless virtual collaboration through real-time video meetings and collaborative coding environments. It integrates video conferencing, live chat, and a shared online compiler into a single platform.',
 		ss: '/codereview.png',
-		tech: ['React', 'Vite', 'Express', 'Google Generative AI(Gemini)'],
+		tech: ['React', 'Vite', 'Express', 'Socket.IO'],
 		live: 'https://codemeet-x50a.onrender.com',
 		code: 'https://github.com/harshiii456/Codemeet',
 	},
