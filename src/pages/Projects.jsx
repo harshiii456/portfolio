@@ -20,7 +20,15 @@ const PROJECTS = [
 		code: 'https://github.com/harshiii456/CPU-Schedular-',
 	},
 	{
-		title: '💼 Portfolio Website',
+		title: '💼 HireSmart AI',
+		desc: 'HireSmart AI is a multi-agent system designed to automate the job screening process. It reads job descriptions, extracts and evaluates candidate CVs, calculates semantic similarity, shortlists the best-fit candidates, and schedules interviews — all with minimal manual intervention.',
+		ss: '/smarthire.png',
+		tech: ['Python 3.1', 'Ollama ', 'SentenceTransformers ', 'Torch', 'PyMuPDF', 'SQLite3 '],
+		live: 'https://cpu-schedular-q2mg.onrender.com',
+		code: 'https://github.com/harshiii456/smart_hire',
+	},
+	{
+		title: 'Portfolio Website',
 		desc: 'A modern and responsive portfolio built with React and Framer Motion, showcasing projects, skills, and achievements with smooth animations and interactive UI.',
 		ss: '/portfolio.jpg',
 		tech: ['React', 'Framer Motion', 'Tailwind CSS'],
