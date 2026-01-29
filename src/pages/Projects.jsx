@@ -24,7 +24,7 @@ const PROJECTS = [
 		desc: 'HireSmart AI is a multi-agent system designed to automate the job screening process. It reads job descriptions, extracts and evaluates candidate CVs, calculates semantic similarity, shortlists the best-fit candidates, and schedules interviews — all with minimal manual intervention.',
 		ss: '/smarthire.png',
 		tech: ['Python 3.1', 'Ollama ', 'SentenceTransformers ', 'Torch', 'PyMuPDF', 'SQLite3 '],
-		live: 'https://cpu-schedular-q2mg.onrender.com',
+		live: 'https://smart-hire-wntm.onrender.com',
 		code: 'https://github.com/harshiii456/smart_hire',
 	},
 	{
