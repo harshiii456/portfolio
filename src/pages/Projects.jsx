@@ -16,7 +16,7 @@ const PROJECTS = [
 		desc: 'This project simulates various CPU scheduling algorithms to demonstrate how different algorithms impact system performance. The goal is to help understand and compare the efficiency of different scheduling strategies used by operating systems for CPU resource allocation.',
 		ss: '/CPU.png',
 		tech: ['React', 'Vite', 'DOM', 'Framer Motion', 'Lucide React', 'D3.js', 'Tailwind CSS'],
-		live: 'https://portfolio-ibgw.onrender.com',
+		live: 'https://cpu-schedular-q2mg.onrender.com/',
 		code: 'https://github.com/harshiii456/CPU-Schedular-',
 	},
 	{
@@ -28,13 +28,21 @@ const PROJECTS = [
 		code: 'https://github.com/harshiii456/smart_hire',
 	},
 	{
+		title: 'Cohabify',
+		desc: 'CoHabify is a comprehensive full-stack platform that streamlines habit tracking, roommate collaboration, mood monitoring, and anonymous emotional sharing. Built with React, Node.js, Express, and MongoDB, it helps users build productive routines, manage shared living responsibilities, track emotional well-being, and foster healthier relationships through interactive analytics, challenges, and community-driven features.',
+		ss: '/cohabify.png',
+		tech: ['React', 'Node.js', 'Express', 'MongoDB'],
+		live: 'https://cohabify-frontend.onrender.com',
+		code: 'https://github.com/harshiii456/portfolio',
+	},
+	{
 		title: 'Portfolio Website',
 		desc: 'A modern and responsive portfolio built with React and Framer Motion, showcasing projects, skills, and achievements with smooth animations and interactive UI.',
 		ss: '/portfolio.jpg',
 		tech: ['React', 'Framer Motion', 'Tailwind CSS'],
 		live: 'https://portfolio-ibgw.onrender.com/',
 		code: 'https://github.com/harshiii456/portfolio',
-	},
+	}
 ]
 
 export default function Projects() {
